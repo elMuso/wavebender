@@ -17,7 +17,6 @@ try:
     from itertools import zip_longest
 except ImportError:
     from itertools import imap as map
-    from itertools import izip as zip
     from itertools import izip_longest as zip_longest
 
 try:
